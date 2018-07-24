@@ -3,7 +3,9 @@
 ![](img/ros.png)
 ![](img/xbox.png)
 
-This repository contains a simple linux bash script that automatically builds XBOX-Kinect ONE ROS driver for users. This is done so by downloading and building all necessary dependencies required.
+This repository contains **a simple linux bash script that automatically builds XBOX-Kinect ONE ROS driver**.
+
+This is done so by downloading and building all necessary dependencies required.
 
 The script also automatically test the installed driver using ROS Kinetic Distribution packages such as **rviz** to ensure the installation has succeeded.
 
@@ -15,19 +17,17 @@ This script assumes the following requirements
 * Stable internet connection
 * Patience
 
-Links are provided for instructions on how to install the aforementioned requirements.
-
 ## Usage
 
-1. You will only need the script so there is no need to download this entire repository. You can download the script via the following linux command.
+1. **Download** the bash script. There is no need to download this entire repository.
 
 `$ wget https://raw.githubusercontent.com/cardboardcode/kinect_ros_setup/master/rosi_ros-setup_kinect_driver.bash`
 
-2. At the file directory you have downloaded the script to, make the script executable.
+2. **Make** the script **executable**. Ensure that your terminal file directory is where you have downloaded the script to.
 
 `$ chmod u+x rosi_ros-setup_kinect_driver.bash`
 
-3. Start the installation.
+3. **Run** it and start installing.
 
 `$ ./rosi_ros-setup_kinect_driver.bash`
 
@@ -36,6 +36,8 @@ Links are provided for instructions on how to install the aforementioned require
 
 ## Issues
 Found this script useful or rage-inducing? Please post them in the Github [Issues](https://github.com/cardboardcode/kinect_ros_setup/issues). Any feedback is welcomed.
+
+You can also refer to the reference [iai_kinect](https://github.com/code-iai/iai_kinect2) GitHub repository for more information on potential technical issues.
 
 ## Acknowledgments
 
