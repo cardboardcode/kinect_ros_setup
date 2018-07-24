@@ -52,11 +52,11 @@ source ~/.bashrc
 echo "<< ROS-Kinect Drivers Installation Complete >>"
 echo " "
 echo "[Run command: ]"
-echo " ---- [roslaunch kinect2_bridge kinect2_bridge.launch] ----" 
+echo " ---- [roslaunch kinect2_bridge kinect2_bridge.launch] ----"
 echo " This will start running the kinect"
 echo " "
 echo "[Run command: ]"
-echo " ---- [rosrun rviz rviz] ---- " 
+echo " ---- [rosrun rviz rviz] ---- "
 echo " This visualizes the XBOX Kinect output in an image viewer"
 echo " [Click] the ADD button located near the bottom left of the GUI to add the image topic "
 #calibration needs to be done seperate. Refer to the link given above
