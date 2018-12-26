@@ -13,7 +13,7 @@ The script also automatically test the installed driver using ROS Kinetic Distri
 
 This script assumes the following requirements
 * [Ubuntu Xenial 16.04](https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/install-ubuntu-16-04-with-screenshots.html)
-* [ROS Distribution Kinect](http://wiki.ros.org/kinetic/Installation/Ubuntu)
+* [ROS Distribution Kinectic](http://wiki.ros.org/kinetic/Installation/Ubuntu)
 * Stable internet connection
 * Patience
 
