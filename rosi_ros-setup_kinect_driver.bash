@@ -17,10 +17,10 @@ echo "Entering into local libfreenect2 directory"
 cd libfreenect2
 
 echo "Setting up essential packages"
-sudo apt-get install build-essential cmake pkg-config
-sudo apt-get install libusb-1.0-0-dev
-sudo apt-get install libturbojpeg libjpeg-turbo8-dev
-sudo apt-get install libglfw3-dev
+sudo apt-get install build-essential cmake pkg-config --yes
+sudo apt-get install libusb-1.0-0-dev --yes
+sudo apt-get install libturbojpeg libjpeg-turbo8-dev --yes
+sudo apt-get install libglfw3-dev --yes
 
 echo "Building dependencies"
 mkdir build && cd build
