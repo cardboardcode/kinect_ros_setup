@@ -6,7 +6,7 @@
 ## https://github.com/code-iai/iai_kinect2
 ## Credits to: Thiemo Wiedemeyer <wiedemeyer@cs.uni-bremen.de>, Institute for Artificial Intelligence, University of Bremen
 
-echo "Setting Up ROS-Kinect Drivers for Ubuntu 18.04 Bionic Beaver"
+echo "Setting Up ROS-Kinect Drivers for Ubuntu 20.04 Bionic Beaver"
 
 echo "Setting up essential packages & building dependencies"
 sudo apt-get install build-essential cmake pkg-config --yes
@@ -38,7 +38,7 @@ sudo cp ../platform/linux/udev/90-kinect2.rules /etc/udev/rules.d/
 echo "Creating a catkin workspace in $HOME to test the ROS Driver installed."
 mkdir -p ~/catkin_ws/src/
 cd ~/catkin_ws/src/
-git clone https://github.com/code-iai/iai_kinect2.git
+git clone https://github.com/TheEngineRoom-UniGe/iai_kinect2.git
 cd iai_kinect2
 rosdep install -r --from-paths .
 cd ~/catkin_ws

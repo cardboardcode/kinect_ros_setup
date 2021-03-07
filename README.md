@@ -7,15 +7,13 @@ This repository contains **a simple linux bash script that automatically builds 
 
 This is done so by downloading and building all necessary dependencies required.
 
-The script also automatically test the installed driver using ROS **Melodic** Distribution packages such as **rviz** to ensure the installation has succeeded.
+The script also automatically test the installed driver using ROS **Noetic** Distribution packages such as **rviz** to ensure the installation has succeeded.
 
 ## **System Requirements**
 
 This script assumes the following requirements
-* [Ubuntu Bionic 18.04](https://www.linuxtechi.com/ubuntu-18-04-lts-desktop-installation-guide-screenshots/)
-* [ROS Distribution Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
-* Stable internet connection
-* Patience
+* [Ubuntu Bionic 20.04](https://www.linuxtechi.com/ubuntu-18-04-lts-desktop-installation-guide-screenshots/)
+* [ROS Distribution Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu)
 
 ## **Usage**
 
@@ -32,7 +30,7 @@ This script assumes the following requirements
 `$ sudo ./rosi_ros-setup_kinect_driver.bash`
 
 ## **Tested Linux Systems**
-* Ubuntu Xenial 18.04
+* Ubuntu Focal Fossa 20.04.2 LTS
 
 ## **Issues**
 Found this script useful or rage-inducing? Please post them in the Github [Issues](https://github.com/cardboardcode/kinect_ros_setup/issues). Any feedback is welcomed.
